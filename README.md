@@ -10,10 +10,11 @@ and then\
 
 ## Usage (as a useless command line program)
 
-`git clone https://github.com/haukened/emojify.git`\
-`cd emojify/cmd/emojify`\
-`go build`\
-`./emojify :beer:`
-
+```
+git clone https://github.com/haukened/emojify.git
+cd emojify/cmd/emojify`
+go build`
+./emojify :beer:
+```
 
 
