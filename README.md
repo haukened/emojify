@@ -6,14 +6,14 @@ This list currently has about 2100 supported unicode emojis and aliases.  They a
 ## Usage (as a package)
 `import "github.com/haukened/emojify"`\
 and then\
-`fmt.Println(emojify.Render(":beer:"))`\
+`fmt.Println(emojify.Render(":beer:"))`
 
 ## Usage (as a useless command line program)
 
-`git clone https://github.com/haukened/emojify.git`\ 
+`git clone https://github.com/haukened/emojify.git`\
 `cd emojify/cmd/emojify`\
 `go build`\
-`./emojify :beer:`\
+`./emojify :beer:`
 
 
 
