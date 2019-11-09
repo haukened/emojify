@@ -12,8 +12,8 @@ and then\
 
 ```
 git clone https://github.com/haukened/emojify.git
-cd emojify/cmd/emojify`
-go build`
+cd emojify/cmd/emojify
+go build
 ./emojify :beer:
 ```
 
