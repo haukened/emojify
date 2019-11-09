@@ -8,6 +8,6 @@ install: false
 
 script:
   - go build
-  - go build -o emojify /cmd/emojify/main.go
+  - go build -o emojify cmd/emojify/main.go
   - go vet ./...
   - go fmt ./...
