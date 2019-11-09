@@ -26,7 +26,6 @@ import (
 	"github.com/haukened/emojify/internal/emojiMap"
 )
 
-
 // Render accepts a string, and if the emoji exists in the map of emojis, the unicode representation is returned, if not (or if it does and cannot be rendered to a single unicode rune) the original string is returned.
 func Render(s string) string {
 	re := regexp.MustCompile(`:(\w+|([+-]\d)):`)
