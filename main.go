@@ -1,17 +1,17 @@
 /*
-Package emojify provides a way to convert emoji shortnames (:beer:) to unicode emojis 🍺 specifically to render in text based terminal applications and UIs.
+Package emojify provides a way to convert emoji shortnames to unicode emojis, specifically to render in text based terminal applications and UIs. :beer: becomes 🍺
 
 It is designed to be imported into your codebase, as opposed to a standalone binary:
 
-import (
-	"fmt"
+	import (
+		"fmt"
 
-	"github.com/haukened/emojify
-)
+		"github.com/haukened/emojify
+	)
 
-func main() {
-	fmt.Println(emojify.Render(":beer:"))
-}
+	func main() {
+		fmt.Println(emojify.Render(":beer:"))
+	}
 
 It also provides the Resolve(string) function to resolve aliases to root emojis that have unicode representations. Running Resolve(":cheeseburger:") results in ":hamburger:".
 
